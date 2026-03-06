@@ -59,7 +59,8 @@ Brave Browser comes packed with features that many users don't need or want:
 Open PowerShell as Administrator and run:
 
 ```powershell
-iwr "https://raw.githubusercontent.com/YOUR_REPO/Debrave/main/Debrave.ps1" -OutFile "Debrave.ps1"; .\Debrave.ps1
+Invoke-WebRequest https://raw.githubusercontent.com/alvadyzaa/debrave/main/Debrave.ps1 -OutFile Debrave.ps1
+.\Debrave.ps1
 ```
 
 > **Note:** Update `YOUR_REPO` with your actual GitHub repository
@@ -257,3 +258,4 @@ If Debrave helps you, consider:
 **Made with ❤️ for privacy-conscious users**
 
 *Debrave - Because your browser should work for you, not against you.*
+
